@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home | Physical Therapy Website Example</title>
+	<!-- stylesheets -->
+	<link rel="stylesheet" type="text/css" href="./css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<!-- javascript -->
+	<script src="./js/navbar_burger.js"></script>
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+	<!-- Navbar -->
+	<nav class="navbar is-fixed-top navbar-transparent" role="navigation" aria-label="main navigation">
+		<div class="container">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="./index.html">
+					<span id="navbar-logo">
+						Physical Therapy Website
+					</span>
+				</a>
+				<div class="navbar-burger burger" data-target="navMenu" arial-label="menu" aria-expanded="false">
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</div>
+			</div>
+
+			<div id="navMenu" class="navbar-menu">
+				<div class="navbar-start">
+
+				</div>
+				<div class="navbar-end">
+					<a class="navbar-item is-tab is-active" href="./index.html">
+						Home
+					</a>
+					<div class="navbar-item has-dropdown is-hoverable">
+						<a class="navbar-link" href="./rates-and-services.html">
+							Rates & Services
+						</a>
+						<div class="navbar-dropdown is-boxed">
+							<a class="navbar-item" href="./rates-and-services.html">
+								Rates & Services
+							</a>
+							<a class="navbar-item" href="./manual-lymph-drainage.html">
+								Manual Lymph Drainage
+							</a>
+							<a class="navbar-item" href="./reiki-treatments.html">
+								Reiki Treatment
+							</a>
+						</div>
+					</div>
+					<a class="navbar-item is-tab" href="./contact-us.html">
+						Contact Us
+					</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- /Navbar -->
+
+	<!-- parallax hero -->
+	<section class="hero is-fullheight">
+		<div id="hero-parallax" class="is-bg-parallax bg-home" onscroll="onScrollBlur">
+			<div class="hero-body hero-body-trans-20">
+				<div class="container title-container has-text-centered">
+					<h1 class="title title-name">
+						Physical Therapy Website
+					</h1>
+					<h2 class="subtitle subtitle-name has-text-weight-bold">
+						Example site for a physical therapy practice
+					</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /parallax hero -->
+
+	<div class="bg-white">
+
+		<!-- offers section cards -->
+		<section class="section">
+			<div class="container">
+				<div class="content has-text-centered">
+					<h2 class="title title-services">Services</h2>
+					<p class="subtitle">Select a service to learn more</p>
+				</div>
+				<div class="columns service-offers is-9">
+					<!-- full body card -->
+					<div class="column">
+						<a href="./rates-and-services.html#full-body">
+							<div class="card is-one-third">
+								<div class="card-image">
+									<figure class="image is-4by3">
+										<img src="./img/service-full-body.webp"
+											alt="Woman faced down on massage bed receiving a full body massage">
+									</figure>
+								</div>
+								<header class="header-card">
+									<p class="card-header-title">
+										Full Body
+									</p>
+									<p class="card-header-subtitle">
+										Swedish &amp; Deep Tissue
+									</p>
+								</header>
+							</div>
+						</a>
+					</div>
+					<!-- /full body card -->
+					<!-- mld card -->
+					<div class="column">
+						<a href="./rates-and-services.html#mld">
+							<div class="card is-one-third">
+								<div class="card-image">
+									<figure class="image is-4by3">
+										<img src="./img/service-mld.webp"
+											alt="Essential oils being poured in the palm of massage therapist's hand">
+									</figure>
+								</div>
+								<header class="header-card">
+									<p class="card-header-title">
+										Manual Lymph Drainage
+									</p>
+								</header>
+							</div>
+						</a>
+					</div>
+					<!-- /mld card -->
+					<!-- reflexology card -->
+					<div class="column">
+						<a href="./rates-and-services.html#reflexology">
+							<div class="card is-one-third">
+								<div class="card-image">
+									<figure class="image is-4by3">
+										<img src="./img/service-reflexology.webp"
+											alt="Person lying down receiving a foot massage to the souls of their foot">
+									</figure>
+								</div>
+								<header class="header-card">
+									<p class="card-header-title">
+										Reflexology
+									</p>
+								</header>
+							</div>
+						</a>
+					</div>
+					<!-- /reflexology card -->
+					<!-- reiki treatments card -->
+					<div class="column">
+						<a href="./rates-and-services.html#reiki">
+							<div class="card is-one-third">
+								<div class="card-image">
+									<figure class="image is-4by3">
+										<img src="./img/service-reiki.webp"
+											alt="Palm sized white cloudy healing crystal being held">
+									</figure>
+								</div>
+								<header class="header-card">
+									<p class="card-header-title">
+										Reiki
+									</p>
+								</header>
+							</div>
+						</a>
+					</div>
+					<!-- /reiki treatments card -->
+					<!-- maternity card -->
+					<div class="column">
+						<a href="./rates-and-services.html#maternity">
+							<div class="card is-one-third">
+								<div class="card-image">
+									<figure class="image is-4by3">
+										<img src="./img/service-maternity.webp"
+											alt="Relaxed woman in white covers getting a face massage">
+									</figure>
+								</div>
+								<header class="header-card">
+									<p class="card-header-title">
+										Maternity
+									</p>
+								</header>
+							</div>
+						</a>
+					</div>
+					<!-- /maternity card -->
+				</div>
+			</div>
+		</section>
+		<!-- /offers section cards -->
+
+		<!-- where it began -->
+		<section class="hero is-large is-bg bg-passion">
+			<div class="hero-body container">
+				<div class="columns is-centered">
+					<div class="my-passion box has-text-centered column is-three-quarters content">
+						<h2 class="title">Lorem ipsum dolor sit amet</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Nibh tellus molestie nunc non blandit massa enim nec. Augue
+							lacus viverra vitae congue eu. Tempor id eu nisl nunc mi ipsum faucibus vitae. Est
+							ullamcorper eget nulla facilisi etiam. Gravida arcu ac tortor dignissim convallis. Fringilla
+							phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Sed blandit libero
+							volutpat sed cras. Nisl vel pretium lectus quam. Auctor elit sed vulputate mi sit amet
+							mauris. Tincidunt nunc pulvinar sapien et ligula. Faucibus turpis in eu mi.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /where it began -->
+
+		<!-- footer -->
+		<footer>
+			<section class="footer-content section">
+				<div class="container">
+					<div class="columns content">
+						<div class="column content">
+							<p class="footer-title">
+								Physical Therapy Website
+							</p>
+						</div>
+						<div class="column content">
+							<p class="footer-title">
+								Links
+								<ul>
+									<li>
+										<a href="./rates-and-services.html">
+											Rates and Services
+										</a>
+									</li>
+									<li>
+										<a href="./manual-lymph-drainage.html">
+											Manual Lymph Drainage
+										</a>
+									</li>
+									<li>
+										<a href="./reiki-treatments.html">
+											Reiki Treatment
+										</a>
+									</li>
+								</ul>
+							</p>
+						</div>
+						<div class="column content">
+							<p class="footer-title">
+								<a href="./contact-us.html">
+									Contact Us
+								</a>
+							</p>
+							<p>
+								<a>
+									<i class="fas fa-phone"></i> : 555-555-5555
+								</a>
+							</p>
+							<p>
+								<a rel="noopener" target="_blank">
+									<i class="fas fa-envelope"></i> :
+									<span class="email-link">
+										email@example.com
+									</span>
+								</a>
+							</p>
+							<p>
+								Follow us:
+								<a rel="noopener" target="_blank">
+									<span class="social-icon has-text-centered">
+										<i class="fab fa-facebook-f"></i>
+									</span>
+								</a>
+								<a rel="noopener" target="_blank">
+									<span class="social-icon has-text-centered">
+										<i class="fab fa-instagram"></i>
+									</span>
+								</a>
+								<a rel="noopener" target="_blank">
+									<span class="social-icon has-text-centered">
+										<i class="fab fa-twitter"></i>
+									</span>
+								</a>
+								<a rel="noopener" target="_blank">
+									<span class="social-icon has-text-centered">
+										<i class="fab fa-yelp"></i>
+									</span>
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="footer-copywrite section">
+				<div class="container content">
+					<div class="level">
+						<div class="level-item">
+							<p class="has-text-centered">
+								&copy;2019 <span class="is-nowrap"> All rights reserved.</span>
+							</p>
+						</div>
+						<div class="level-item">
+							<p class="has-text-centered">
+								Made with <i class="fas fa-heart"></i> &amp; <i class="fas fa-coffee"></i> in Philly
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</footer>
+		<!-- /footer -->
+
+	</div>
+
+	<!-- run javascript -->
+	<script src="./js/script.js"></script>
+	<!-- /run javascript -->
+
+</body>
+
+</html>
